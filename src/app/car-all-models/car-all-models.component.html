@@ -1,0 +1,4 @@
+<ul *ngFor="let model of CarModel">
+  <li >{{ model.name }} </li>
+  <li><app-carsmodifications [carid]="model.id"></app-carsmodifications></li>
+</ul>

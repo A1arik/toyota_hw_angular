@@ -1,0 +1,5 @@
+<ul *ngFor="let mod of CarMod">
+  <li>{{ mod.mod_id}} | {{mod.mod_name}}</li>
+  <li><app-carcolor [carid]="mod.mod_id"></app-carcolor></li>
+  <li><app-car-engine [carid]="mod.mod_id"></app-car-engine></li>
+</ul>
